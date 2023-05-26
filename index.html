@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <header style="visibility: hidden;" id="home-page">
+        
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" >Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                     <h5 class="me-2 text-white" >Hi! <span id="topbar-name"></span></h5>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        
+
+    </header>
+    <main>
+   
+      <div style="visibility: visible" id="login-page">
+        <div class="section-form bg-dark py-5 mx-auto  shadow-lg mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center col-lg-12 col-md-12 col-sm-12">
+                        <form action="" onsubmit="handleSubmit()">
+                            <h5 class="text-center text-white">Login</h5>
+    
+                            <input type="text" placeholder="UserName" id="userName" required  class="form-control mt-5 ">
+                            <input type="text" placeholder="Enter Your Email" id="email1" required class="form-control mt-4 ">
+                        
+                            <input type="password" placeholder="Password" id="pass" required class="form-control mt-4">
+                        
+                            <input class="btn btn-outline-success mt-4 px-5" type="submit" value="Login">
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+           </div>
+    
+      </div>
+     <div id="hero-section" style="visibility: hidden;" class="mt-5">
+        <div class="container">
+            <div class="row  text-white">
+                <div class="col col-lg-6 col-md-6 col-sm-12">
+                    <h3>ADMIN PANEL</h3>
+                    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea doloremque earum temporibus quo non aperiam. Quia ea, unde incidunt cupiditate nostrum fugit, iure pariatur ratione eveniet, nihil deleniti perferendis qui?</P>
+                </div>
+            </div>
+          </div>
+     </div>
+    </main>
+    <footer style="visibility: hidden;" id="footer-footer">
+        <div class="container-fluid bg-dark mb-0">
+            <div class="row">
+                <div class="col">
+                    <p class="text-center text-white mt-1 ">&copy; <span id="year">year</span> All Right Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+                        <script src="script.js"></script>
+    
+</body>
+</html>
